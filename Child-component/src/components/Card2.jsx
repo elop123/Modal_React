@@ -6,6 +6,7 @@ function Card2(obj){
         <div className={styles.container}>
             {obj.children}
         </div>
+       
         </>
     )
 }
