@@ -6,7 +6,7 @@ function App() {
   return (
     <>
        <Card >
-       <Header />
+       <Header  title='Welcome title' subtitle='I am a  subtitle'/>
        </Card>
     </>
   )
