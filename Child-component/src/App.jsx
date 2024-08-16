@@ -54,7 +54,7 @@ function App() {
       </Card2> 
       {arr.map((item) =>{
         return  (
-          <Card3  title={item.title}
+          <Card3 key={item.title} title={item.title}
                   textContent={item.textContent} 
                   image={item.image}
                   footerContent={item.footerContent} />
